@@ -5,7 +5,9 @@
     "target": "es2016",
     "lib": [
       "DOM",
-      "ESNext"
+      "DOM.Iterable",
+      "ESNext",
+      "WebWorker"
     ],
     "strict": true,
     "esModuleInterop": true,
@@ -17,7 +19,8 @@
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
     "types": [
-      "vite/client"
+      "vite/client",
+      "vite-plugin-pwa/client"
     ],
     "paths": {
       "~/*": [

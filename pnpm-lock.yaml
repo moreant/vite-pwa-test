@@ -7,6 +7,7 @@ specifiers:
   vite-plugin-pwa: ^0.11.13
   vue: ^3.2.25
   vue-tsc: ^0.29.8
+  workbox-window: ^6.4.2
 
 dependencies:
   vue: registry.npmmirror.com/vue/3.2.29
@@ -17,6 +18,7 @@ devDependencies:
   vite: registry.npmmirror.com/vite/2.7.13
   vite-plugin-pwa: 0.11.13_vite@2.7.13
   vue-tsc: registry.npmmirror.com/vue-tsc/0.29.8_typescript@4.5.5
+  workbox-window: 6.4.2
 
 packages:
 
